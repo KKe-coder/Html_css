@@ -1,3 +1,9 @@
 [submodule "html_css_chapter2"]
 	path = html_css_chapter2
 	url = https://github.com/KKe-coder/html_css_chapter2
+[submodule "html_css_chapter3"]
+	path = html_css_chapter3
+	url = https://github.com/KKe-coder/html_css_chapter3
+[submodule "html_css_chapter4"]
+	path = html_css_chapter4
+	url = https://github.com/KKe-coder/html_css_chapter4
