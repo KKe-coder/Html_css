@@ -5,25 +5,39 @@
 }
 
 header {
-  width: 1024px;
-  margin: 0 auto;
-  text-align: center;
-  position: relative;
-}
-
-header {
+  width: 100%;
+  height: 70px;
   background-color: #ec715f;
 }
 
-.nav-list {
-  text-align: center;
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1024px;
   margin: 0 auto;
 }
 
-.nav-list-item {
+.nav {
+  float: right;
+}
+
+.logo {
+  height: 70px;
+  float: left;
+}
+
+.nav-list {
   font-size: 16px;
+  width: 120px;
   color: #fafafa;
   list-style: none;
-  display: inline-block;
-  margin: 30px;
+  line-height: 70px;
+  padding: 0 30px;
+  float: left;
+}
+
+.nav-list a {
+  color: #fafafa;
 }
