@@ -26,4 +26,4 @@
 
   - line-heightオプションはheightと同数にする
 
-  - 両端のpaddingが指定されている場合、1箇所あたりのpadding*4を全体のwidthとすると等間隔で見やすい？
+  - 両端のpaddingが指定されている場合、1箇所あたりのpadding*4を全体のwidthとすると等間隔で見やすいyy
