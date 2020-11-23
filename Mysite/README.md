@@ -2,6 +2,12 @@
 
 ---
 
+- Markdown記法
+
+  - タグを囲うときは、`` ->　バッククォートで囲む。
+
+  
+
 - header
 
   - 同page内ジャンプは、
@@ -14,17 +20,15 @@
 
     (Boostrapの記載では
 
-    左側は<a class="navbar-brand">を用いる。
+    左側は`<a class="navbar-brand">`を用いる。
 
-    右側は<ul class="navbar-nav">を用いる。)
-
-    
+    右側は`<ul class="navbar-nav">`を用いる。)
 
     html上での記載は、高さを指定し、float: left;オプション(左揃えの場合)、navも同様に右揃えオプションで記載する。
 
-  - nav内構造 body-header-nav-ul-li-a タグ
+  - nav内構造 body-header-nav-ul-li-a タグとなるように覚える。
 
-  - line-heightオプションはheightと同数にする
+  - line-heightオプションはheightと同数にすることで、中央始まりに出来る。
 
   - 両端のpaddingが指定されている場合、1箇所あたりのpadding*4を全体のwidthとすると等間隔で見やすい。
 
@@ -32,10 +36,17 @@
 
   - CSS background-sizeプロパティ containとcoverの違い
 
-    containは空白有り、coverは空白なし
+    containは縦横倍率固定で空白あり、coverは縦横倍率固定で空白なし
 
-  - 各コンテンツラインが存在するときは、`<section id="hogehoge">`として区切るのが良いかもしれない。→ idのプロパティに注意… #hogehoge
+  - 各コンテンツラインが存在するときは、`<section id="hogehoge">`として区切るのが良いかもしれない。→ idのプロパティに注意… 例　#hogehoge
 
 - portfoli(pf)
 
-  - タイトルの下の線の入れ方…
+  - タイトルの下の線の入れ方…擬似クラスを用い、指定された条件での装飾を行う記述。
+
+    〜つかいかた〜
+
+    htmlには特に記述は追加しない。cssにおけるオプション指定で、**::before** もしくは **::after** をオプション名の後に追加して、装飾の設定を行う。
+
+  - **::nth-child** 擬似クラス (-n+m) 最初〜m番目の数まで指定
+

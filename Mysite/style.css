@@ -69,12 +69,74 @@ a {
 }
 
 .pf-container {
-  width: 920px;
-  margin: 0 auto;
 }
 
 .pf-title {
   padding-top: 90px;
   font-size: 32px;
   color: #000000;
+}
+
+.pf-title::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  margin: 8px auto 0 auto;
+  background-color: #ec715f;
+}
+
+.pf-text {
+  padding-top: 30px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.pf-picture {
+  width: 920px;
+  padding: 30px 0 90px 0;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pf-pictures:nth-child(-n + 3) {
+  margin-top: 0;
+}
+
+.pf-pictures:nth-child(3n) {
+  margin-right: 0;
+}
+
+.pf-pictures {
+  float: left;
+  width: 300px;
+  height: 250px;
+  margin: 10px 10px 0 0;
+  background-size: cover;
+  background-position: center;
+}
+
+.pic-1 {
+  background-image: url(img/sketch.jpg);
+}
+
+.pic-2 {
+  background-image: url(img/websuku.png);
+}
+
+.pic-3 {
+  background-image: url(img/write.jpg);
+}
+
+.pic-4 {
+  background-image: url(img/webcamp.png);
+}
+
+.pic-5 {
+  background-image: url(img/talk.jpg);
+}
+
+.pic-6 {
+  background-image: url(img/webcamp-mother.png);
 }
