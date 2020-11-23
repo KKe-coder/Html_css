@@ -1,7 +1,5 @@
 ## 外部にて調べたことや復習内容等・各種メモ
 
-現在書籍勉強中.......
-
 ---
 
 - header
@@ -28,4 +26,13 @@
 
   - line-heightオプションはheightと同数にする
 
-  - 両端のpaddingが指定されている場合、1箇所あたりのpadding*4を全体のwidthとすると等間隔で見やすいyy
+  - 両端のpaddingが指定されている場合、1箇所あたりのpadding*4を全体のwidthとすると等間隔で見やすい。
+
+- main-visual(mv)
+
+  - CSS background-sizeプロパティ containとcoverの違い
+
+    containは空白有り、coverは空白なし
+
+  - 各コンテンツラインが存在するときは、<section id="hogehoge">として区切るのが良いかもしれない。→ idのプロパティに注意… #hogehoge
+  - 
