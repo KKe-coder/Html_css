@@ -215,3 +215,37 @@ a {
   display: block;
   clear: both;
 }
+
+.contact-group {
+  width: 800px;
+  padding: 30px 0 90px 0;
+  margin: 0 auto;
+}
+
+.left-contact-content {
+  width: 130px;
+  margin: 0 auto;
+}
+
+.link-text {
+  text-decoration: underline;
+  color: #212121;
+}
+
+.right-contact-content {
+  width: 170px;
+  margin: 0 auto;
+}
+
+.right-contact-content .fab {
+  margin-right: 20px;
+}
+
+.right-contact-content .fa-instagram {
+  font-size: 50px;
+  margin-right: 20px;
+}
+
+.right-contact-content .fab:last-child {
+  margin-right: 0;
+}
