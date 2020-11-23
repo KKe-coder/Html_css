@@ -34,5 +34,8 @@
 
     containは空白有り、coverは空白なし
 
-  - 各コンテンツラインが存在するときは、<section id="hogehoge">として区切るのが良いかもしれない。→ idのプロパティに注意… #hogehoge
-  - 
+  - 各コンテンツラインが存在するときは、`<section id="hogehoge">`として区切るのが良いかもしれない。→ idのプロパティに注意… #hogehoge
+
+- portfoli(pf)
+
+  - タイトルの下の線の入れ方…

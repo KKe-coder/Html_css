@@ -62,3 +62,19 @@ a {
   font-size: 20px;
   color: #fafafa;
 }
+
+#portfolio {
+  background-color: #eceff1;
+  text-align: center;
+}
+
+.pf-container {
+  width: 920px;
+  margin: 0 auto;
+}
+
+.pf-title {
+  padding-top: 90px;
+  font-size: 32px;
+  color: #000000;
+}
