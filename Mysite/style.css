@@ -346,3 +346,28 @@ footer {
     font-size: 18px;
   }
 }
+
+@media (max-width: 768px) {
+  #portfolio {
+    padding: 0 5%;
+  }
+}
+
+@media (max-width: 768px) {
+  .sp-none {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .pf-picture {
+    width: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .pf-pictures {
+    float: none;
+    margin-right: 0;
+  }
+}
