@@ -391,3 +391,41 @@ footer {
     margin-top: 0;
   }
 }
+
+@media (max-width: 768px) {
+  #profile {
+    padding: 0 5%;
+  }
+}
+
+@media (max-width: 768px) {
+  .profile-group {
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .left-content {
+    float: none;
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .right-content {
+    float: none;
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .discription-title {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .discription-title:first-child {
+    margin-top: 20px;
+  }
+}
