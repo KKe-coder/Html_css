@@ -371,3 +371,23 @@ footer {
     margin-right: 0;
   }
 }
+
+@media (max-width: 768px) {
+  .strength-group {
+    width: 320px;
+    display: inline-block;
+  }
+}
+
+@media (max-width: 768px) {
+  .strength {
+    float: none;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .strength:first-child {
+    margin-top: 0;
+  }
+}
