@@ -419,13 +419,33 @@ footer {
 }
 
 @media (max-width: 768px) {
-  .discription-title {
-    margin-top: 0;
+  .discription-title:first-child {
+    margin-top: 20px;
   }
 }
 
 @media (max-width: 768px) {
-  .discription-title:first-child {
+  #contact {
+    padding: 0 5%;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-group {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .left-contact-content {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .right-contact-content {
+    width: 100%;
     margin-top: 20px;
   }
 }
